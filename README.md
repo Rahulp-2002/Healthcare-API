@@ -4,11 +4,4 @@
 
 ## Authentication APIs
 
-### Register a new user
-- **Endpoint**: `POST /api/auth/register/`
-- **Description**: Registers a new user.
-  {
-    "username": "your_username",
-    "email": "your_email@example.com",
-    "password": "your_password"
-  }
+
