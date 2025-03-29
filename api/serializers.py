@@ -5,7 +5,7 @@ from django.contrib.auth.models import User
 class PatientSerializer(serializers.ModelSerializer):
     class Meta:
         model = Patient
-        fields = ['id', 'First_name', 'last_name', 'date_of_birth', 'contact_number', 'address']
+        fields = ['id', 'first_name', 'last_name', 'date_of_birth', 'contact_number', 'address']
 
 class DoctorSerializer(serializers.ModelSerializer):
     class Meta:
